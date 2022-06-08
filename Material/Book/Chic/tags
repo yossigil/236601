@@ -1,0 +1,703 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$$	parser.cc	/^  S $$ = NIL;$/;"	v	namespace:Parser	typeref:typename:S
+$1$	fluentons.cc	/^S S::$1$() const { return car(); } $/;"	f	class:S	typeref:typename:S
+$2$	fluentons.cc	/^S S::$2$() const { return cdr().$1$(); }$/;"	f	class:S	typeref:typename:S
+$3$	fluentons.cc	/^S S::$3$() const { return cdr().$2$(); }$/;"	f	class:S	typeref:typename:S
+$4$	fluentons.cc	/^S S::$4$() const { return cdr().$3$(); }$/;"	f	class:S	typeref:typename:S
+ACTUALS	eval.cc	/^  } NAME("\\r \/\/"),  ACTUALS("\\r [...]"), LAMBDA("\\r ..");$/;"	v	namespace:Frame	typeref:typename:const struct Frame::Entry
+BAD_ARGUMENTS	except.cc	/^const S BAD_ARGUMENTS("Arguments are not a list"); $/;"	v	typeref:typename:const S
+BAD_FUNCTION	except.cc	/^const S BAD_FUNCTION("Bad function structure"); $/;"	v	typeref:typename:const S
+BAD_PARAMETERS	except.cc	/^const S BAD_PARAMETERS("Parameters are not a list");$/;"	v	typeref:typename:const S
+Book	t-book.cc	/^  Book() { silent(); } $/;"	f	struct:Book	file:
+Book	t-book.cc	/^struct Book: ::testing::Test {$/;"	s	file:
+C	tokenizer.cc	/^static inline char& C() { return *head; }$/;"	f	namespace:Tokenizer	typeref:typename:char &	file:
+Dump	a-list.cc	/^namespace Dump {$/;"	n	file:
+EOF	REPL.cc	/^#define EOF /;"	d	file:
+EXPECT_STDERR	t-REPL.cc	/^#define EXPECT_STDERR(/;"	d	file:
+EXPECT_STDOUT	t-REPL.cc	/^#define EXPECT_STDOUT(/;"	d	file:
+Engine	a-list.cc	/^namespace Engine {$/;"	n	file:
+Engine	builtin.cc	/^namespace Engine {$/;"	n	file:
+Engine	eval.cc	/^namespace Engine { $/;"	n	file:
+Engine	t-alist-global-local.cc	/^namespace Engine { namespace Inner {$/;"	n	file:
+Engine	t-error.cc	/^namespace Engine {$/;"	n	file:
+Engine	t-eval-cond.cc	/^namespace Engine { namespace Inner { S evaluate_cond(S); }}$/;"	n	file:
+Entry	eval.cc	/^    S key; Entry(S s): key(s) {}  $/;"	f	struct:Frame::Entry	file:
+Entry	eval.cc	/^  const struct Entry { $/;"	s	namespace:Frame	file:
+Frame	a-list.cc	/^namespace Frame { extern S until(S); }$/;"	n	file:
+Frame	eval.cc	/^namespace Frame { $/;"	n	file:
+GLOBALS	atoms.cc	/^const S GLOBALS("\/SET");$/;"	v	typeref:typename:const S
+Inner	builtin.cc	/^  namespace Inner {$/;"	n	namespace:Engine	file:
+Inner	eval.cc	/^  namespace Inner { $/;"	n	namespace:Engine	file:
+Inner	t-alist-global-local.cc	/^namespace Engine { namespace Inner {$/;"	n	namespace:Engine	file:
+Inner	t-error.cc	/^  namespace Inner {$/;"	n	namespace:Engine	file:
+Inner	t-eval-cond.cc	/^namespace Engine { namespace Inner { S evaluate_cond(S); }}$/;"	n	namespace:Engine	file:
+LAMBDA	eval.cc	/^  } NAME("\\r \/\/"),  ACTUALS("\\r [...]"), LAMBDA("\\r ..");$/;"	v	namespace:Frame	typeref:typename:const struct Frame::Entry
+MEMORY_ATOM	except.cc	/^const S MEMORY_ATOM("drained atom buffer");$/;"	v	typeref:typename:const S
+MEMORY_CONS	except.cc	/^const S MEMORY_CONS("drained cons records' pool");$/;"	v	typeref:typename:const S
+MISSING_ARGUMENT	except.cc	/^const S MISSING_ARGUMENT("Too few argument(s)"); $/;"	v	typeref:typename:const S
+NAME	eval.cc	/^  } NAME("\\r \/\/"),  ACTUALS("\\r [...]"), LAMBDA("\\r ..");$/;"	v	namespace:Frame	typeref:typename:const struct Frame::Entry
+PRODUCTION	a-list.cc	/^#define PRODUCTION$/;"	d	file:
+PRODUCTION	builtin.cc	/^#define PRODUCTION$/;"	d	file:
+PRODUCTION	eval.cc	/^#define PRODUCTION$/;"	d	file:
+PRODUCTION	pairs.cc	/^#define PRODUCTION$/;"	d	file:
+PRODUCTION	parser.cc	/^#define PRODUCTION$/;"	d	file:
+PRODUCTION	strings.cc	/^#define PRODUCTION$/;"	d	file:
+Pairs	pairs.cc	/^namespace Pairs {$/;"	n	file:
+Pairs	t-pairs.cc	/^namespace Pairs {$/;"	n	file:
+Parser	parser.cc	/^namespace Parser {$/;"	n	file:
+REDUNDANT_ARGUMENT	except.cc	/^const S REDUNDANT_ARGUMENT("Redundant argument(s)"); $/;"	v	typeref:typename:const S
+REPL	REPL.cc	/^Integer REPL() {   $/;"	f	typeref:typename:Integer
+REPL	t-REPL.cc	/^struct REPL: Test { };$/;"	s	file:
+RESET	atoms.cc	/^const S RESET("\/RESET");$/;"	v	typeref:typename:const S
+SExp	t-parser.cc	/^typedef ::S SExp;$/;"	t	typeref:typename:::S	file:
+SetUp	t-book.cc	/^  void SetUp() override { silent(); } $/;"	f	struct:Book	typeref:typename:void	file:
+Stack	stack.cc	/^namespace Stack {$/;"	n	file:
+Strings	strings.cc	/^namespace Strings { \/\/ Atoms are never freed in mini-lisp$/;"	n	file:
+Strings	strings.cc	/^namespace Strings {$/;"	n	file:
+Strings	t-strings.cc	/^namespace Strings {$/;"	n	file:
+TEST	t-REPL.cc	/^TEST(REPL, Sanity0) { go("(cons 'x 'y)"); }$/;"	f
+TEST	t-REPL.cc	/^TEST(REPL, Sanity1) { EXPECT_TRUE(go("(cons 'x 'y)")); }$/;"	f
+TEST	t-alist-global-local.cc	/^TEST(AlistGlobalLocal, SetWithError) {$/;"	f
+TEST	t-alist-global-local.cc	/^TEST(AlistGlobalLocal, SetWithNoError) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, AtomChar) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, AtomLong) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, AtomOutput) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, EmptyListNiL) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibDefun) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibLambda) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibNDefun) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibNLambda) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibNil) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, LibT) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, List0) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, List1) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, List2) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, List3) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, ListQuotePair) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, NIL) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, Pair) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, PairInList) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, PairIsList) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, PairX) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, PairYZ) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QNestedList) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QuoteA) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QuoteAA) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QuoteExtra) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QuoteInList) {$/;"	f
+TEST	t-ast.cc	/^TEST(AST, QuoteListInList) {$/;"	f
+TEST	t-basics.cc	/^TEST(Exists, Empty) {$/;"	f
+TEST	t-basics.cc	/^TEST(Exists, Many) {$/;"	f
+TEST	t-basics.cc	/^TEST(Exists, Singleton) {$/;"	f
+TEST	t-basics.cc	/^TEST(Exists, Trivial) {$/;"	f
+TEST	t-basics.cc	/^TEST(List, Empty) {$/;"	f
+TEST	t-basics.cc	/^TEST(List, Many) {$/;"	f
+TEST	t-basics.cc	/^TEST(List, Singleton) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, AtomicFunctionsAtom) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, AtomicFunctionsCdr) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, AtomicFunctionsCons) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, AtomicFunctionsEq) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, AtomicFunctionsSet) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsLambda) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsNdefun) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsNil) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsNlambda) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsNull) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsQuote) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, BuiltInFunctionsT) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car1) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car2) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car3) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car4) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car5) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Car6) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Cond1) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Cond2) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Cond3) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Cond4) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Cond5) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, EvalOnEval) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, EvalOnEvalError1) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, EvalOnEvalError2) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror1) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror2) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror3) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror4) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror5) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Mirror6) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Zcar0) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Zcar1) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Zcar2) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Zcar3) {$/;"	f
+TEST	t-book.cc	/^TEST(Book, Zcar4) {$/;"	f
+TEST	t-defun.cc	/^TEST(Defun, Empty) { S f = defun(NIL, NIL); EXPECT_EQ(apply(f, NIL).eval(), NIL); }$/;"	f
+TEST	t-defun.cc	/^TEST(Defun, LambdaIdCar) { S f = defun(list(x), x); EXPECT_EQ(apply(f, list(CAR.cons(list(list(a/;"	f
+TEST	t-defun.cc	/^TEST(Defun, LambdaRac3CarFirstEval) { S f = defun(list(x, y, z), z); EXPECT_EQ(apply(f, list(CAR/;"	f
+TEST	t-defun.cc	/^TEST(Defun, LambdaRac3CarLastEval) { S f = defun(list(x, y, z), z); EXPECT_EQ(apply(f, list(a.q(/;"	f
+TEST	t-defun.cc	/^TEST(Defun, LambdaRac3QuoteEval) { S f = defun(list(x, y, z), z); EXPECT_EQ(apply(f, list(a.q(),/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Car3) { S f = ndefun(list(x, y, z), x); EXPECT_EQ(apply(f, list(a, b, c)), a); }$/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, CarFirst) { S f = ndefun(list(x, y), list(CAR, x)); EXPECT_EQ(apply(f, list(list(a,/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, CarLast1) { S f = ndefun(list(p, j), list(CAR, j)); EXPECT_EQ(apply(f, list(c, list/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, CarLast2) { S f = ndefun(list(x, y), list(CAR, y)); EXPECT_EQ(apply(f, list(c, list/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Mirror) { S f = ndefun(list(x), list(CONS, list(CDR, x), list(CAR, x))); EXPECT_EQ(/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Rac3) { S f = ndefun(list(x, y, z), z); EXPECT_EQ(apply(f, list(a, b, c)), c); }$/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, ReturnEmptyList) { S f = ndefun(list(x, y), list()); EXPECT_EQ(apply(f, list(a, b))/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, ReturnID) { S f = ndefun(list(x), x); EXPECT_EQ(apply(f, list(a)), a); }$/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, ReturnSameAtom) { S f = ndefun(list(x, y), z.q()); EXPECT_EQ(apply(f, list(a, b)), /;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Set1) { S f = ndefun(list(p, y), list(SET, p, y)); EXPECT_EQ(apply(f, list(a, b)), /;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Set2) { S f = ndefun(list(x, y), list(SET, x, y)); EXPECT_EQ(apply(f, list(a, b)), /;"	f
+TEST	t-defun.cc	/^TEST(NDefun, SetAndCar1) { S f = ndefun(list(m, n), list(SET, m.q(), list(CAR, n))); EXPECT_EQ(a/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, SetAndCar2) { S f = ndefun(list(x, y), list(SET, x.q(), list(CAR, y))); EXPECT_EQ(a/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Swap1) { S f = ndefun(list(m, n), list(CONS, n, m)); EXPECT_EQ(apply(f, list(z, k))/;"	f
+TEST	t-defun.cc	/^TEST(NDefun, Swap2) { S f = ndefun(list(x, y), list(CONS, y, x)); EXPECT_EQ(apply(f, list(a, b))/;"	f
+TEST	t-error.cc	/^TEST(Error, Align1) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, Align2) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, Align3) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, Align4) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, InternalCheck1) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, InternalCheck2) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, MissingFunction) {$/;"	f
+TEST	t-error.cc	/^TEST(Error, OtherError) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, BAD_FUNCTION1) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, BAD_FUNCTION2) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, BAD_FUNCTION3) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, BAD_FUNCTION4) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, BadFunction3) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, CarOfAtom) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, CarOfNil) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, CdrOfAtom) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, CdrOfNil) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, REDUNDANT_ARGUMENT) {$/;"	f
+TEST	t-error.cc	/^TEST(Except, UNDEFINED_ATOM) {$/;"	f
+TEST	t-eval-atomic.cc	/^TEST(AtomicFunctionsList, AfterSet) {$/;"	f
+TEST	t-eval-cond.cc	/^TEST(CondEvaluationOrder, CondEvaluationOrder) {$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, ArgumentEvaluationOrder) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, CONSp0) EVAL_EQ(list(CONS, x.q(), y.q()), x.cons(y))$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Car3Long) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, CarFirst) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, CarLast) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, DefunMissing) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Empty) {$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, FirstOfThree) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity0a) { CAREFULLY_EXPECT(EQ,list(identity(),a).eval(), a); }$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity0b) { CAREFULLY_EXPECT(EQ,invoke(identity(), list(a)), a); }$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity1) {    EXPECT_EQ(invoke(identity(), list(x.cons(y))), x.cons(y)); }$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity2) {     EXPECT_EQ(invoke(identity(), list(list(a,b,c))), list(a,b,c)); }$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity3) {  EXPECT_EQ(invoke(identity(), list(list(CAR, CDR))), list(CAR, CDR)); }$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity4) {   EXPECT_EXCEPTION(invoke(identity(), list(a, b)), list(b), REDUNDANT_AR/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Identity5) { EXPECT_EXCEPTION(invoke(identity(), list()), list(x), MISSING_ARGUMENT);/;"	f
+TEST	t-eval.cc	/^TEST(Eval, LambdaIdCar) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, LambdaRac3CarFirstEval) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, LambdaRac3CarLastEval) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, LambdaRac3QuoteEval) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Mirror) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Rac3) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, ReturnEmptyList) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, ReturnSameAtom) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Set) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, SetAndCar) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Variadic) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, Z) { $/;"	f
+TEST	t-eval.cc	/^TEST(Eval, emptyList0) {$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, emptyList1) {$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, emptyList2) {$/;"	f
+TEST	t-eval.cc	/^TEST(Eval, evaluate_all_arguments_before_binding) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS1) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS2) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS3) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS4) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS5) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS6) { $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS7) {  $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS8) {  $/;"	f
+TEST	t-eval.cc	/^TEST(EvalError, BAD_ARGUMENTS9) { $/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, RealErrors) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, atom) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, car) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, cdr) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, cons1) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, cons2) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, cons3) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, eq) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, eval) {$/;"	f
+TEST	t-evaluate-primitive.cc	/^TEST(ParseEvalAtomic, set) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Eval,LiteralN) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Eval,LiteralT) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Eval,Literal_n) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, EvalQuote) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, Quote) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, T) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, l) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, more) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, rac) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, rdc) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton, snoc) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,NE) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,less) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,n0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,n1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,n2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Fluenton,n3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, BadFunction) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, MissingFunction0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, MissingFunction1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, MissingFunction2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, MissingVariable) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, Sanity1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, Sanity2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, Sanity3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Invocation, Sanity4) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom4) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom5) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom6) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Atom7) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car10) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car11) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car12) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car4) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car5) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car6) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car7) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car8) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Car9) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr4) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr5) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cdr6) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cons0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cons1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Cons2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Error) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Error0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Error1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Error2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Error3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, ErrorC) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Literals) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Nil) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null2) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null3) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null4) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null5) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null6) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null7) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Null8) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Quote0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Quote1) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, T) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, Undefined0) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native, cdr) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,EQ) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,Throw) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,atom) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,car) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,cons) {$/;"	f
+TEST	t-fluentons.cc	/^TEST(Native,null) {$/;"	f
+TEST	t-pairs.cc	/^  TEST(Pairs, A_CONS_B) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, A_CONS_B_Allocated) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, A_CONS_B_Inverse) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, NIL_Cons_NIL) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, Representation) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, T_CONS_T) {$/;"	f	namespace:Pairs
+TEST	t-pairs.cc	/^  TEST(Pairs, T_CONS_T_handles) {$/;"	f	namespace:Pairs
+TEST	t-parser.cc	/^TEST(Parser, AtomChar) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, AtomCharTokenizer) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, AtomLong) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, Empty) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, EmptyNilPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, EmptyQNilPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, Initially) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List0) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List1) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List1x) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List2) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List3) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, List4) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ListTokenization) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ListTokenizationGetNextTwice) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ListTokenizationNext) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ListTokenizationNextGet) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ListTokenizationWithGet) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, NestedList) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, NilNilPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, Pair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, PairInList) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, ParenPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QList2) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QList3) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QList4) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QPairBoth) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QuoteAtom) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QuotedListEmpty) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, QuotedListSingleton) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, SingleTokenErroCloseParen) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, SingleTokenErroOpenParen) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, SingleTokenErroPeriod) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, SingleTokenErroQuote) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, SingleTokenErroSquare) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, qNilNilPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Parser, qParenPair) {$/;"	f
+TEST	t-parser.cc	/^TEST(Symbol, isRule) {$/;"	f
+TEST	t-strings.cc	/^  TEST(Strings, Indices) {$/;"	f	namespace:Strings
+TEST	t-strings.cc	/^  TEST(Strings, Layout) {$/;"	f	namespace:Strings
+TEST	t-strings.cc	/^  TEST(Strings, NIL) {$/;"	f	namespace:Strings
+TEST	t-strings.cc	/^  TEST(Strings,Handles) {$/;"	f	namespace:Strings
+TEST	t-strings.cc	/^  TEST(Strings,HandlesT) {$/;"	f	namespace:Strings
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, Atom) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, AtomCommented) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, AtomSpaced) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, Char) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, ConcreteTokens) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, Empty) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, EmptyComment) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, HelloWorld) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, HelloWorldEOF) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, HelloWorldEOFAgain) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, IdemPotent) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, ListTokenizationThrice) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, ListTokenizationTwice) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, ListTokenizationWithGet) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, OneComment) {$/;"	f
+TEST	t-tokenizer.cc	/^TEST(Tokenizer, RemoveComments) {$/;"	f
+TESTING	print.cc	/^#define TESTING(/;"	d	file:
+TESTING	print.cc	/^TESTING( static void record(String s); )$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, Failure1) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, Failure2) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, Failure3) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, Failure4) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, Failure5) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, NIL) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, SetGoodLookup) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, T) {$/;"	f
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, T0) {$/;"	f	typeref:typename:Lookup
+TEST_F	t-a-list.cc	/^TEST_F(Lookup, TeaAndCofee) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Car3) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, CarFirst) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, CarLast) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Empty) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, LambdaIdCar) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, LambdaRac3CarFirstEval) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, LambdaRac3CarLastEval) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, LambdaRac3QuoteEval) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Mirror) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Rac3) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, ReturnEmptyList) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, ReturnID) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, ReturnSameAtom) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Set) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, SetAndCar) {$/;"	f
+TEST_F	t-apply.cc	/^TEST_F(Apply, Swap) {$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(SetX, T1) { EVAL_XX("y", "y", UNDEFINED_ATOM); }$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(SetY, T0) { EVAL_EQ("y", "foo"); }$/;"	f	typeref:typename:SetY,Test,"(set 'y 'foo)"
+TEST_F	t-eval.cc	/^TEST_F(SetY, T1) { EVAL_XX("x", "x", UNDEFINED_ATOM); }$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(Swap, T1) { set(x, "foo"); EVAL_EQ("x", "foo"); }$/;"	f	typeref:typename:Swap,Test,"(ndefun swap(x y) (cons (eval y) (eval x)))"
+TEST_F	t-eval.cc	/^TEST_F(Swap, T2) { set(y, "bar"); EVAL_EQ("y", "bar"); }$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(Swap, T3) { set(x, "foo"); set(y, "bar"); EVAL_EQ("(swap x y)", "y.x"); }$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(Swap, T4) { set("u", "foo"); set("v", "bar"); EVAL_EQ("(swap u v)", "bar.foo"); }$/;"	f
+TEST_F	t-eval.cc	/^TEST_F(Swap, T5) EVAL_XX("(swap a b c)", "(c)", REDUNDANT_ARGUMENT) $/;"	f
+TEST_F	t-kernel.cc	/^TEST_F(apply_eager_atomic, T9) { EVAL_EQ("(apply-eager-atomic 'set '(y a)  nil)","A"); EXPECT_EQ/;"	f
+TEST_F	t-kernel.cc	/^TEST_F(apply_trivial_atomic, T9) { eval("(apply-trivial-atomic 'set 'a 'b)");  EVAL_EQ("a", "b")/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Empty) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Peep) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Push) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Push2) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Push3) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Push4) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, PushPush) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, Remaining) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, TopZero) {$/;"	f
+TEST_F	t-stack.cc	/^TEST_F(stack, reset) {$/;"	f
+Tested	test.cc	/^namespace Tested {$/;"	n	file:
+Tokenizer	tokenizer.cc	/^namespace Tokenizer {$/;"	n	file:
+UNDEFINED_ATOM	except.cc	/^const S UNDEFINED_ATOM("Undefined atom"); $/;"	v	typeref:typename:const S
+_	atoms.cc	/^#define _(/;"	d	file:
+__0	atoms.cc	/^const S __0(".."), __1("1.."), __2("2.."), __3("3..");$/;"	v	typeref:typename:const S
+__1	atoms.cc	/^const S __0(".."), __1("1.."), __2("2.."), __3("3..");$/;"	v	typeref:typename:const S
+__2	atoms.cc	/^const S __0(".."), __1("1.."), __2("2.."), __3("3..");$/;"	v	typeref:typename:const S
+__3	atoms.cc	/^const S __0(".."), __1("1.."), __2("2.."), __3("3..");$/;"	v	typeref:typename:const S
+__anon756a9d700111	builtin.cc	/^namespace {$/;"	n	namespace:Engine	file:
+__anon756a9d700211	builtin.cc	/^namespace {$/;"	n	namespace:Engine	file:
+__anon756a9d700308	builtin.cc	/^    static struct {$/;"	s	function:Engine::exec	file:
+__anon9ee32e630108	strings.cc	/^  static struct { \/\/ Falls in the data segment; should be just before Pairs::buffer$/;"	s	namespace:Strings	file:
+a	t-apply.cc	/^static S a("A"), b("B"), c("C");$/;"	v	typeref:typename:S	file:
+a	t-book.cc	/^static S a("a");$/;"	v	typeref:typename:S	file:
+a	t-defun.cc	/^static S a("a");$/;"	v	typeref:typename:S	file:
+a	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+a	t-evaluate-primitive.cc	/^static S a("a");$/;"	v	typeref:typename:S	file:
+a	t-kernel.cc	/^S x("x"), y("y"), a("a"), b("b");$/;"	v	typeref:typename:S
+a0	t-fluentons.cc	/^static S a0("");$/;"	v	typeref:typename:S	file:
+a1	t-error.cc	/^static S a1("T");$/;"	v	typeref:typename:S	file:
+a1	t-fluentons.cc	/^static S a1("T");$/;"	v	typeref:typename:S	file:
+a2	t-error.cc	/^static S a2("NIL");$/;"	v	typeref:typename:S	file:
+a2	t-fluentons.cc	/^static S a2("NIL");$/;"	v	typeref:typename:S	file:
+a3	t-error.cc	/^static S a3("FOO BAR");$/;"	v	typeref:typename:S	file:
+a3	t-fluentons.cc	/^static S a3("FOO BAR");$/;"	v	typeref:typename:S	file:
+a4	t-error.cc	/^static S a4("BAR");$/;"	v	typeref:typename:S	file:
+a4	t-fluentons.cc	/^static S a4("BAR");$/;"	v	typeref:typename:S	file:
+advance	tokenizer.cc	/^static char advance() {$/;"	f	namespace:Tokenizer	typeref:typename:char	file:
+align	eval.cc	/^    S align(S s1, S s2, S e1, S e2) { return  $/;"	f	namespace:Engine::Inner	typeref:typename:S
+align	t-error.cc	/^static inline auto align(S s1, S s2) { return align(s1, s2, MISSING_ARGUMENT, REDUNDANT_ARGUMENT/;"	f	typeref:typename:auto	file:
+allocate	pairs.cc	/^  H allocate() {$/;"	f	namespace:Pairs	typeref:typename:H
+allocate	pairs.cc	/^  H allocate(H car, H cdr) {$/;"	f	namespace:Pairs	typeref:typename:H
+allocate	strings.cc	/^  H allocate(String s) {$/;"	f	namespace:Strings	typeref:typename:H
+apply	eval.cc	/^  S apply(S f, S actuals) {$/;"	f	namespace:Engine	typeref:typename:S
+argument	a-list.cc	/^  static void argument(S s) {$/;"	f	namespace:Dump	typeref:typename:void	file:
+argument	t-eval.cc	/^S argument("argument");$/;"	v	typeref:typename:S
+arguments	a-list.cc	/^  static void arguments(S s, S until) {$/;"	f	namespace:Dump	typeref:typename:void	file:
+atom	builtin.cc	/^  inline S atom() { return t(v1().atom()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+atom	fluentons.cc	/^bool S::atom() const { return handle <= 0; }$/;"	f	class:S	typeref:typename:bool
+atom	t-eval-atomic.cc	/^auto atom(S s) { return s.atom(); }$/;"	f	typeref:typename:auto
+b	t-apply.cc	/^static S a("A"), b("B"), c("C");$/;"	v	typeref:typename:S	file:
+b	t-book.cc	/^static S b("b");$/;"	v	typeref:typename:S	file:
+b	t-defun.cc	/^static S b("b");$/;"	v	typeref:typename:S	file:
+b	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+b	t-evaluate-primitive.cc	/^static S b("b");$/;"	v	typeref:typename:S	file:
+b	t-kernel.cc	/^S x("x"), y("y"), a("a"), b("b");$/;"	v	typeref:typename:S
+bind	eval.cc	/^    void bind(S formals, S arguments) {$/;"	f	namespace:Engine::Inner	typeref:typename:void
+bindings	a-list.cc	/^  static S bindings(S from) {$/;"	f	namespace:Dump	typeref:typename:S	file:
+buffer	strings.cc	/^    char buffer[M] = "BOTTOM";$/;"	m	struct:Strings::__anon9ee32e630108	typeref:typename:char[]	file:
+buffer	strings.cc	/^  char *buffer = data.buffer;$/;"	v	namespace:Strings	typeref:typename:char *
+builtin	builtin.cc	/^extern S builtin() {$/;"	f	namespace:Engine	typeref:typename:S
+c	t-apply.cc	/^static S a("A"), b("B"), c("C");$/;"	v	typeref:typename:S	file:
+c	t-book.cc	/^static S c("c");$/;"	v	typeref:typename:S	file:
+c	t-defun.cc	/^static S c("c");$/;"	v	typeref:typename:S	file:
+c	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+c	t-evaluate-primitive.cc	/^static S c("c");$/;"	v	typeref:typename:S	file:
+calls	a-list.cc	/^  void calls() {$/;"	f	namespace:Dump	typeref:typename:void
+car	builtin.cc	/^  inline S car() { return v1().car(); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+car	fluentons.cc	/^S    S::car()  const { return atom() ? error(CAR) : p().car; }$/;"	f	class:S	typeref:typename:S
+cdr	builtin.cc	/^  inline S cdr() { return v1().cdr(); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+cdr	fluentons.cc	/^S    S::cdr()  const { return atom() ? error(CDR) : p().cdr; }$/;"	f	class:S	typeref:typename:S
+chatty	print.cc	/^extern void chatty() { silence = false; }$/;"	f	typeref:typename:void
+check	eval.cc	/^    S check(S l, S e) { return l.null() ? l : l.atom() ? l.error(e) : check(l.cdr(), e); } $/;"	f	namespace:Engine::Inner	typeref:typename:S
+clear	a-list.cc	/^  void clear() { current = NIL0; }$/;"	f	namespace:Engine	typeref:typename:void
+cond	builtin.cc	/^  inline S cond() { D(v1()); return evaluate_cond(v1()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+cons	builtin.cc	/^  inline S cons() { return v2().cons(v1()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+cons	fluentons.cc	/^S S::cons(S cdr) const { return S(*this, cdr); }$/;"	f	class:S	typeref:typename:S
+current	strings.cc	/^  H current = 0;$/;"	v	namespace:Strings	typeref:typename:H
+current_status	parser.cc	/^  static enum Status current_status = ready;$/;"	v	namespace:Parser	typeref:enum:Status	file:
+data	strings.cc	/^  } data;$/;"	v	namespace:Strings	typeref:struct:Strings::__anon9ee32e630108
+defun	builtin.cc	/^  inline S defun() { return Engine::set(v3(), lambda()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+defun	t-defun.cc	/^static S defun(S parameters, S body) { return defun(S("thingy"), parameters, body); }$/;"	f	typeref:typename:S	file:
+die	except.cc	/^extern bool die(Pair p) { $/;"	f	typeref:typename:bool
+die	except.cc	/^extern bool die(S s) { $/;"	f	typeref:typename:bool
+dump	strings.cc	/^  String dump() {$/;"	f	namespace:Strings	typeref:typename:String
+dumping	dump.cc	/^bool dumping = false;$/;"	v	typeref:typename:bool
+eager	builtin.cc	/^  inline S eager(S name, S formals) {$/;"	f	namespace:Engine::__anon756a9d700111	typeref:typename:S
+empty	stack.cc	/^  bool empty() { return top == 0; } $/;"	f	namespace:Stack	typeref:typename:bool
+entry	a-list.cc	/^  extern S entry(S k, S v) { return current = k.cons(v).cons(current), v; }$/;"	f	namespace:Engine	typeref:typename:S
+entry	builtin.cc	/^  inline S entry(S tag, S name, S formals) {$/;"	f	namespace:Engine::__anon756a9d700111	typeref:typename:S
+eq	builtin.cc	/^  inline S eq() { return t(v2().eq(v1())); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+eq	fluentons.cc	/^bool S::eq(S other) const { return handle == other.handle && atom(); }$/;"	f	class:S	typeref:typename:bool
+eq	strings.cc	/^  bool eq(const char *s1, const char *s2) {$/;"	f	namespace:Strings	typeref:typename:bool
+err	print.cc	/^int err() { return file = stderr, 0;  }$/;"	f	typeref:typename:int
+error	builtin.cc	/^  inline S error() { $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+error	fluentons.cc	/^S S::error(S kind) const { return die(cons(kind).p()), NIL;} $/;"	f	class:S	typeref:typename:S
+error	t-REPL.cc	/^String error() { return Recorder::stderr.playback(); }$/;"	f	typeref:typename:String
+eval	REPL.cc	/^static S eval(S s) { try { return s.eval(); } catch (Pair $x$) { throw s; } }$/;"	f	typeref:typename:S	file:
+eval	builtin.cc	/^  inline S eval() { return v1().eval(); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+eval	eval.cc	/^  S eval(S s) { $/;"	f	namespace:Engine	typeref:typename:S
+eval	fluentons.cc	/^S    S::eval() const { return Engine::eval(*this); }$/;"	f	class:S	typeref:typename:S
+evaluate	eval.cc	/^    S evaluate(S s) { return s.eval(); }$/;"	f	namespace:Engine::Inner	typeref:typename:S
+evaluate_cond	builtin.cc	/^    S evaluate_cond(S s) {  $/;"	f	namespace:Engine::Inner	typeref:typename:S
+exec	builtin.cc	/^extern S exec(S key) {$/;"	f	namespace:Engine	typeref:typename:S
+exists	tokenizer.cc	/^extern bool exists(const char c, String s) {$/;"	f	typeref:typename:bool
+expr	t-eval.cc	/^S expr("");$/;"	v	typeref:typename:S
+f	builtin.cc	/^      S (*f)();$/;"	m	struct:Engine::exec::__anon756a9d700308	typeref:typename:S (*)()	file:
+f	t-eval.cc	/^S f("my-function");$/;"	v	typeref:typename:S
+feed	t-parser.cc	/^static auto feed(const char *s) {$/;"	f	typeref:typename:auto	file:
+feed	test.cc	/^static auto feed(String s) {$/;"	f	namespace:Tested	typeref:typename:auto	file:
+file	print.cc	/^static FILE *file = stdout;$/;"	v	typeref:typename:FILE *	file:
+forever	REPL.cc	/^#define forever /;"	d	file:
+frame	a-list.cc	/^  static S frame(S s) { $/;"	f	namespace:Dump	typeref:typename:S	file:
+free	pairs.cc	/^  void free(H h) { D(h, remaining);$/;"	f	namespace:Pairs	typeref:typename:void
+get	pairs.cc	/^  Pair &get(H h) {$/;"	f	namespace:Pairs	typeref:typename:Pair &
+get	tokenizer.cc	/^H get() {$/;"	f	namespace:Tokenizer	typeref:typename:H
+getParenthesesBalanceCounter	tokenizer.cc	/^extern int getParenthesesBalanceCounter() {$/;"	f	typeref:typename:int
+globals	a-list.cc	/^  S globals() { return bindings(Engine::globals); }$/;"	f	namespace:Dump	typeref:typename:S
+go	t-REPL.cc	/^static bool go(const char *s) { inject(s); return REPL(); }$/;"	f	typeref:typename:bool	file:
+head	recorder.cc	/^char *Recorder::head() { return length+(char *)(tape); }$/;"	f	class:Recorder	typeref:typename:char *
+head	tokenizer.cc	/^static char *head;$/;"	v	namespace:Tokenizer	typeref:typename:char *	file:
+id	t-error.cc	/^static S id("id");$/;"	v	typeref:typename:S	file:
+identity	eval.cc	/^    S identity(S s) { return s; }$/;"	f	namespace:Engine::Inner	typeref:typename:S
+identity	t-eval.cc	/^static S identity() { static S inner = ndefun(S("id"), list(x), x), lookup("id"); return inner; /;"	f	typeref:typename:S	file:
+indent	dump.cc	/^int indent = 0;$/;"	v	typeref:typename:int
+init	pairs.cc	/^  static H init() {$/;"	f	namespace:Pairs	typeref:typename:H	file:
+initialize	tokenizer.cc	/^extern void initialize(String buffer) {$/;"	f	namespace:Tokenizer	typeref:typename:void
+inject	read.cc	/^extern char *inject(String injection) {$/;"	f	typeref:typename:char *
+injection	read.cc	/^static char *injection = (char *)0;$/;"	v	typeref:typename:char *	file:
+invoke	t-eval.cc	/^static S invoke(S f, S arguments) { return f.cons(arguments).eval(); }$/;"	f	typeref:typename:S	file:
+isAtom	tokenizer.cc	/^static bool isAtom() { return !isToken() && !isIgnored(); }$/;"	f	namespace:Tokenizer	typeref:typename:bool	file:
+isIgnored	tokenizer.cc	/^static bool isIgnored() { return C() == ' ' || C() == '\\t' || isNewLine() || C() < ' ' || C() >/;"	f	namespace:Tokenizer	typeref:typename:bool	file:
+isNewLine	tokenizer.cc	/^static bool isNewLine() { return C() == '\\n' || C() == '\\r' || C() == '\\0'; }$/;"	f	namespace:Tokenizer	typeref:typename:bool	file:
+isToken	tokenizer.cc	/^static bool isToken() { return exists(C(),tokens); }$/;"	f	namespace:Tokenizer	typeref:typename:bool	file:
+j	t-defun.cc	/^static S j("j");$/;"	v	typeref:typename:S	file:
+k	t-defun.cc	/^static S k("k");$/;"	v	typeref:typename:S	file:
+key	builtin.cc	/^      S key;$/;"	m	struct:Engine::exec::__anon756a9d700308	typeref:typename:S	file:
+key	eval.cc	/^    S key; Entry(S s): key(s) {}  $/;"	m	struct:Frame::Entry	typeref:typename:S	file:
+l	fluentons.cc	/^S    S::l()    const { return cons(NIL); };$/;"	f	class:S	typeref:typename:S
+lambda	builtin.cc	/^  inline S lambda() { return list(LAMBDA, v2(), v1()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+last	tokenizer.cc	/^static H last; $/;"	v	namespace:Tokenizer	typeref:typename:H	file:
+less0	fluentons.cc	/^bool S::less0() const { return false; }$/;"	f	class:S	typeref:typename:bool
+less1	fluentons.cc	/^bool S::less1() const { return !more0(); }$/;"	f	class:S	typeref:typename:bool
+less2	fluentons.cc	/^bool S::less2() const { return !more1(); }$/;"	f	class:S	typeref:typename:bool
+less3	fluentons.cc	/^bool S::less3() const { return !more2(); }$/;"	f	class:S	typeref:typename:bool
+less4	fluentons.cc	/^bool S::less4() const { return !more3(); }$/;"	f	class:S	typeref:typename:bool
+location	parser.cc	/^  H &location(H h) {$/;"	f	namespace:Parser	typeref:typename:H &
+lookup	a-list.cc	/^  extern S lookup(S id) { $/;"	f	namespace:Engine	typeref:typename:S
+lookup	a-list.cc	/^  extern S lookup(S id, S list) {$/;"	f	namespace:Engine	typeref:typename:S
+m	t-defun.cc	/^static S m("m");$/;"	v	typeref:typename:S	file:
+main	00.cc	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int
+map	eval.cc	/^    S map(S s, S (*f)(S)) { return s.null() ? s :  f(s.car()).cons(map(s.cdr(), f)); }$/;"	f	namespace:Engine::Inner	typeref:typename:S
+more0	fluentons.cc	/^bool S::more0() const { return pair(); } $/;"	f	class:S	typeref:typename:bool
+more1	fluentons.cc	/^bool S::more1() const { return pair() && cdr().more0(); }$/;"	f	class:S	typeref:typename:bool
+more2	fluentons.cc	/^bool S::more2() const { return pair() && cdr().more1(); }$/;"	f	class:S	typeref:typename:bool
+more3	fluentons.cc	/^bool S::more3() const { return pair() && cdr().more2(); }$/;"	f	class:S	typeref:typename:bool
+more4	fluentons.cc	/^bool S::more4() const { return pair() && cdr().more3(); }$/;"	f	class:S	typeref:typename:bool
+n	t-defun.cc	/^static S n("n");$/;"	v	typeref:typename:S	file:
+n	t-error.cc	/^static S n("NIL");$/;"	v	typeref:typename:S	file:
+n	t-fluentons.cc	/^static S n("nil");$/;"	v	typeref:typename:S	file:
+n0	fluentons.cc	/^bool S::n0() const { return null(); }$/;"	f	class:S	typeref:typename:bool
+n1	fluentons.cc	/^bool S::n1() const { return pair() && cdr().n0(); }$/;"	f	class:S	typeref:typename:bool
+n2	fluentons.cc	/^bool S::n2() const { return pair() && cdr().n1(); }$/;"	f	class:S	typeref:typename:bool
+n3	fluentons.cc	/^bool S::n3() const { return pair() && cdr().n2(); }$/;"	f	class:S	typeref:typename:bool
+native	eval.cc	/^    bool native(S tag) { return tag.eq(NDEFUN) || tag.eq(DEFUN); }$/;"	f	namespace:Engine::Inner	typeref:typename:bool
+ndefun	builtin.cc	/^  inline S ndefun() { return Engine::set(v3(), nlambda()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+ndefun	t-defun.cc	/^static S ndefun(S parameters, S body) { return ndefun(S("thingy"), parameters, body); }$/;"	f	typeref:typename:S	file:
+ne	fluentons.cc	/^bool S::ne(S other) const { return handle != other.handle && atom(); }$/;"	f	class:S	typeref:typename:bool
+next	pairs.cc	/^  static H &next() {$/;"	f	namespace:Pairs	typeref:typename:H &	file:
+next	tokenizer.cc	/^extern H next() {$/;"	f	namespace:Tokenizer	typeref:typename:H
+nextAtom	tokenizer.cc	/^static H nextAtom() {$/;"	f	namespace:Tokenizer	typeref:typename:H	file:
+nextS	t-tokenizer.cc	/^static const char* nextS() {$/;"	f	typeref:typename:const char *	file:
+nil	strings.cc	/^    char nil[sizeof("NIL")] = "NIL";$/;"	m	struct:Strings::__anon9ee32e630108	typeref:typename:char[]	file:
+nil	strings.cc	/^  const char *const nil = data.nil;$/;"	v	namespace:Strings	typeref:typename:const char * const
+nlambda	builtin.cc	/^  inline S nlambda() {  return list(NLAMBDA, v2(), v1()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+normal	builtin.cc	/^  inline S normal(S name, S formals) {$/;"	f	namespace:Engine::__anon756a9d700111	typeref:typename:S
+normal	eval.cc	/^    bool normal(S tag) { return tag.eq(NDEFUN) || tag.eq(NLAMBDA); }$/;"	f	namespace:Engine::Inner	typeref:typename:bool
+nothing	t-error.cc	/^S nothing(S s) { return s; }$/;"	f	typeref:typename:S
+null	builtin.cc	/^  inline S null() { return t(v1().null()); } $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+null	fluentons.cc	/^bool S::null() const { return handle == 0; }$/;"	f	class:S	typeref:typename:bool
+nvariadic	builtin.cc	/^  inline S nvariadic(S name, S formals) {$/;"	f	namespace:Engine::__anon756a9d700111	typeref:typename:S
+operator <<	dump.cc	/^std::ostream& operator<<(std::ostream &os, S s) { extern const S QUOTE;$/;"	f	typeref:typename:std::ostream &
+operator ==	test.cc	/^extern bool operator == (const S s1, const S s2) { $/;"	f	typeref:typename:bool
+out	print.cc	/^int out() { return file = stdout, 0; }$/;"	f	typeref:typename:int
+output	t-REPL.cc	/^String output() { return Recorder::stdout.playback(); }$/;"	f	typeref:typename:String
+p	fluentons.cc	/^Pair S::p() const { return Pairs::get(handle); };$/;"	f	class:S	typeref:typename:Pair
+p	t-defun.cc	/^static S p("p");$/;"	v	typeref:typename:S	file:
+p_counter	parser.cc	/^  static int p_counter = 0;$/;"	v	namespace:Parser	typeref:typename:int	file:
+pair	fluentons.cc	/^bool S::pair() const { return handle >  0; }$/;"	f	class:S	typeref:typename:bool
+panic	REPL.cc	/^struct panic{};$/;"	s	file:
+parse	parser.cc	/^  static void parse() {$/;"	f	namespace:Parser	typeref:typename:void	file:
+parse	test.cc	/^  extern S parse(const char *s) {$/;"	f	namespace:Tested	typeref:typename:S
+peep	stack.cc	/^  H& peep() {$/;"	f	namespace:Stack	typeref:typename:H &
+peep	stack.cc	/^  H& peep(H offset) {$/;"	f	namespace:Stack	typeref:typename:H &
+peep	tokenizer.cc	/^H peep() {$/;"	f	namespace:Tokenizer	typeref:typename:H
+pending	tokenizer.cc	/^static bool pending = false;$/;"	v	namespace:Tokenizer	typeref:typename:bool	file:
+playback	recorder.cc	/^String Recorder::playback() { return (char *)(tape); }$/;"	f	class:Recorder	typeref:typename:String
+pool	pairs.cc	/^  Pair *const pool = buffer - 1;$/;"	v	namespace:Pairs	typeref:typename:Pair * const
+pool	strings.cc	/^  const char *const pool = nil;$/;"	v	namespace:Strings	typeref:typename:const char * const
+pop	stack.cc	/^  H pop() {$/;"	f	namespace:Stack	typeref:typename:H
+print	print.cc	/^int print(H h)           { return print(S(h)); }$/;"	f	typeref:typename:int
+print	print.cc	/^int print(S s) { extern const S QUOTE;$/;"	f	typeref:typename:int
+print	print.cc	/^int print(String   line) { return put(line); }$/;"	f	typeref:typename:int
+prompt	print.cc	/^int prompt(String  s)    { return print(s);  }$/;"	f	typeref:typename:int
+push	stack.cc	/^  void push(H data) { top = Pairs::allocate(data,top); }$/;"	f	namespace:Stack	typeref:typename:void
+push	stack.cc	/^  void push(H h1,H h2) { push(h2); push(h1); }$/;"	f	namespace:Stack	typeref:typename:void
+push	stack.cc	/^  void push(H h1,H h2, H h3) { push(h3); push(h1, h2); }$/;"	f	namespace:Stack	typeref:typename:void
+push	stack.cc	/^  void push(H h1,H h2, H h3, H h4) { push(h4); push(h1, h2, h3); }$/;"	f	namespace:Stack	typeref:typename:void
+push	stack.cc	/^  void push(H h1,H h2, H h3, H h4, H h5) { push(h5); push(h1, h2, h3, h4); }$/;"	f	namespace:Stack	typeref:typename:void
+put	print.cc	/^static int put(String s)  { $/;"	f	typeref:typename:int	file:
+q	fluentons.cc	/^S    S::q()    const { return l().snoc(QUOTE); }$/;"	f	class:S	typeref:typename:S
+quote	builtin.cc	/^  inline S quote() {  return v1(); } $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+rac	fluentons.cc	/^S S::rac() const {$/;"	f	class:S	typeref:typename:S
+rdc	fluentons.cc	/^S S::rdc() const {$/;"	f	class:S	typeref:typename:S
+read	REPL.cc	/^S read() { $/;"	f	typeref:typename:S
+readln	read.cc	/^char *readln() {$/;"	f	typeref:typename:char *
+record	eval.cc	/^    S record(S value) const { return Engine::entry(key, value), value; }$/;"	f	struct:Frame::Entry	typeref:typename:S	file:
+record	recorder.cc	/^void Recorder::record(String s) {$/;"	f	class:Recorder	typeref:typename:void
+reduce	parser.cc	/^  void reduce() {$/;"	f	namespace:Parser	typeref:typename:void
+relax	REPL.cc	/^#define relax /;"	d	file:
+remaining	pairs.cc	/^  static H remaining = M;$/;"	v	namespace:Pairs	typeref:typename:H	file:
+reserve	parser.cc	/^  H reserve() {$/;"	f	namespace:Parser	typeref:typename:H
+reset	a-list.cc	/^  extern S reset() { current = NIL0; return globals = builtin(); }$/;"	f	namespace:Engine	typeref:typename:S
+reset	parser.cc	/^  void reset() {$/;"	f	namespace:Parser	typeref:typename:void
+reset	recorder.cc	/^void Recorder::reset() { $/;"	f	class:Recorder	typeref:typename:void
+reset	stack.cc	/^  void reset() {$/;"	f	namespace:Stack	typeref:typename:void
+reset	test.cc	/^void reset() {$/;"	f	namespace:Tested	typeref:typename:void
+result	parser.cc	/^  extern S result() {$/;"	f	namespace:Parser	typeref:typename:S
+set	a-list.cc	/^  extern S set(S k, S v) { return globals = k.cons(v).cons(globals), v;  }$/;"	f	namespace:Engine	typeref:typename:S
+set	builtin.cc	/^  inline S set() { return Engine::set(v2(), v1()); }$/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+shift	parser.cc	/^  void shift(Symbol rule, H h) {$/;"	f	namespace:Parser	typeref:typename:void
+shift	parser.cc	/^  void shift(Symbol rule, H h1, H h2) {$/;"	f	namespace:Parser	typeref:typename:void
+shift	parser.cc	/^  void shift(Symbol rule, H h1, H h2, H h3) {$/;"	f	namespace:Parser	typeref:typename:void
+shift	parser.cc	/^ void shift(Symbol rule) {$/;"	f	namespace:Parser	typeref:typename:void
+silence	print.cc	/^static bool silence = false;$/;"	v	typeref:typename:bool	file:
+silent	print.cc	/^extern void silent() { silence = true; }$/;"	f	typeref:typename:void
+snoc	fluentons.cc	/^S S::snoc(S car) const { return S(car, *this); }$/;"	f	class:S	typeref:typename:S
+stack	t-stack.cc	/^  stack() {$/;"	f	struct:stack	file:
+stack	t-stack.cc	/^struct stack:Test{$/;"	s	file:
+status	parser.cc	/^  extern enum Status status() {$/;"	f	namespace:Parser	typeref:enum:Status
+stderr	recorder.cc	/^Recorder Recorder::stdout, Recorder::stderr; $/;"	m	class:Recorder	typeref:typename:Recorder
+stdout	recorder.cc	/^Recorder Recorder::stdout, Recorder::stderr; $/;"	m	class:Recorder	typeref:typename:Recorder
+store	parser.cc	/^  void store() {$/;"	f	namespace:Parser	typeref:typename:void
+supply	parser.cc	/^  extern void supply(String buffer) {$/;"	f	namespace:Parser	typeref:typename:void
+t	builtin.cc	/^extern S t(S s) { return s.t() ? T : NIL; }  $/;"	f	namespace:Engine	typeref:typename:S
+t	fluentons.cc	/^bool S::t()    const { return handle != 0; }$/;"	f	class:S	typeref:typename:bool
+t	t-ast.cc	/^static auto t(const char *s) {$/;"	f	typeref:typename:auto	file:
+t	t-error.cc	/^static S t("t");$/;"	v	typeref:typename:S	file:
+t	t-fluentons.cc	/^static S t("t");$/;"	v	typeref:typename:S	file:
+t	t-parser.cc	/^static auto t(const char *s) {$/;"	f	typeref:typename:auto	file:
+t	t-tokenizer.cc	/^static void t(const char *s) {$/;"	f	typeref:typename:void	file:
+to_go	pairs.cc	/^  extern H to_go() {$/;"	f	namespace:Pairs	typeref:typename:H
+token	parser.cc	/^  Symbol token;$/;"	v	namespace:Parser	typeref:typename:Symbol
+top	parser.cc	/^  Symbol top;$/;"	v	namespace:Parser	typeref:typename:Symbol
+top	stack.cc	/^  H top = 0;$/;"	v	namespace:Stack	typeref:typename:H
+unget	tokenizer.cc	/^extern H unget() {$/;"	f	namespace:Tokenizer	typeref:typename:H
+until	eval.cc	/^  S until(S s) {$/;"	f	namespace:Frame	typeref:typename:S
+upper	strings.cc	/^  char upper(char c) { return c < 'a' || c > 'z' ? c : c - 'a' + 'A'; }$/;"	f	namespace:Strings	typeref:typename:char
+v1	builtin.cc	/^  inline S v1() { return alist.car().cdr(); } $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+v2	builtin.cc	/^  inline S v2() { return alist.cdr().car().cdr(); } $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+v3	builtin.cc	/^  inline S v3() { return alist.cdr().cdr().car().cdr(); } $/;"	f	namespace:Engine::__anon756a9d700211	typeref:typename:S
+variadic	builtin.cc	/^  inline S variadic(S name, S formals) {$/;"	f	namespace:Engine::__anon756a9d700111	typeref:typename:S
+whatever	REPL.cc	/^#define whatever /;"	d	file:
+x	t-alist-global-local.cc	/^static S x("x"); $/;"	v	typeref:typename:S	file:
+x	t-apply.cc	/^static S x("X"), y("Y"), z("Z");$/;"	v	typeref:typename:S	file:
+x	t-book.cc	/^static S x("x");$/;"	v	typeref:typename:S	file:
+x	t-defun.cc	/^static S x("x");$/;"	v	typeref:typename:S	file:
+x	t-eval-cond.cc	/^static S x("x");$/;"	v	typeref:typename:S	file:
+x	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+x	t-evaluate-primitive.cc	/^static S x("x");$/;"	v	typeref:typename:S	file:
+x	t-kernel.cc	/^S x("x"), y("y"), a("a"), b("b");$/;"	v	typeref:typename:S
+y	t-apply.cc	/^static S x("X"), y("Y"), z("Z");$/;"	v	typeref:typename:S	file:
+y	t-book.cc	/^static S y("y");$/;"	v	typeref:typename:S	file:
+y	t-defun.cc	/^static S y("y");$/;"	v	typeref:typename:S	file:
+y	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+y	t-evaluate-primitive.cc	/^static S y("y");$/;"	v	typeref:typename:S	file:
+y	t-kernel.cc	/^S x("x"), y("y"), a("a"), b("b");$/;"	v	typeref:typename:S
+z	t-apply.cc	/^static S x("X"), y("Y"), z("Z");$/;"	v	typeref:typename:S	file:
+z	t-defun.cc	/^static S z("z");$/;"	v	typeref:typename:S	file:
+z	t-eval.cc	/^static S a("a"), b("b"), c("c"), x("x"), y("y"), z("z");$/;"	v	typeref:typename:S	file:
+z	t-evaluate-primitive.cc	/^static S z("z");$/;"	v	typeref:typename:S	file:
+~Book	t-book.cc	/^  ~Book() { reset(); } $/;"	f	struct:Book	file:
+~stack	t-stack.cc	/^  ~stack() {$/;"	f	struct:stack	file:

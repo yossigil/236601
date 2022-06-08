@@ -1,0 +1,39 @@
+\frametitle{Atomic ``Meta'' Values \#2/2}
+\begin{description}
+\item [Numeric], [Boolean] \ldots
+\item [Symbolic] our main interest
+\item [Meta] encapsulate meta data about the computation
+  \end{description}
+\begin{columns}
+
+\begin{column}{0.4\texwidth}
+\begin{description}
+    \item Function values as in C
+    \item Values of Lambda expressions as in Mini-Lisp
+    \item Values which are closures as in ML
+    \item Values which are generators as in Python
+        \item Reference values as in C++, not values, but refer to a
+    a cell in memory that contains a value.
+    \item Class values as in Java
+    \end{description}
+\end{column}
+\begin{column}{0.4\texwidth}
+\begin{verbatim}
+int fibonnaci(int n) {
+    int (*fibo)(int whatever_optional_name) = fibonnaci;
+    return n <= 2 ? 1 : fibo(n-1) + fibonacci(n-2);
+}
+\end{verbatim}
+
+
+\begin{verbatim}
+Class<?> c = new Foo().bar().class
+\end{verbatim}
+
+
+\begin{verbatim}
+max(int &a, int &b) { return a > b ? a : b; }
+\end{verbatim}
+\end{column}
+\end{columns}
+\end{description}

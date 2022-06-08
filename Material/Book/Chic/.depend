@@ -1,0 +1,104 @@
+00.o: 00.cc REPL.h hacks.h
+REPL.o: REPL.cc REPL.h hacks.h read.h S.h print.h parser.h tokenizer.h
+S.o: S.cc S.h hacks.h
+a-list.o: a-list.cc a-list.h S.h hacks.h basics.h print.h mode.h \
+ production.h except.h builtin.h
+atoms.o: atoms.cc atoms.h S.h hacks.h
+builtin.o: builtin.cc builtin.h S.h hacks.h a-list.h basics.h mode.h \
+ production.h atoms.h
+dump.o: dump.cc dump.h S.h hacks.h basics.h
+eval.o: eval.cc eval.h S.h hacks.h a-list.h builtin.h basics.h print.h \
+ except.h mode.h production.h
+except.o: except.cc except.h S.h hacks.h print.h a-list.h mode.h \
+ debugging.h basics.h dump.h parser.h tokenizer.h stack.h
+fluentons.o: fluentons.cc basics.h S.h hacks.h eval.h a-list.h except.h \
+ atoms.h
+pairs.o: pairs.cc S.h hacks.h except.h mode.h production.h
+parser.o: parser.cc parser.h S.h hacks.h tokenizer.h stack.h mode.h \
+ production.h atoms.h
+print.o: print.cc print.h S.h hacks.h basics.h recorder.h
+read.o: read.cc read.h S.h hacks.h mode.h debugging.h basics.h dump.h \
+ parser.h tokenizer.h stack.h
+recorder.o: recorder.cc recorder.h hacks.h
+stack.o: stack.cc stack.h S.h hacks.h except.h
+strings.o: strings.cc S.h hacks.h mode.h production.h except.h
+t-REPL.o: t-REPL.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h \
+ REPL.h builtin.h recorder.h read.h
+t-a-list.o: t-a-list.cc a-list.h S.h hacks.h test.h basics.h print.h \
+ parser.h tokenizer.h debugging.h dump.h stack.h except.h mode.h atoms.h
+t-alist-global-local.o: t-alist-global-local.cc test.h basics.h S.h \
+ hacks.h print.h parser.h tokenizer.h debugging.h dump.h stack.h except.h \
+ mode.h a-list.h atoms.h
+t-apply.o: t-apply.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h \
+ eval.h
+t-ast.o: t-ast.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-basics.o: t-basics.cc basics.h S.h hacks.h test.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-book.o: t-book.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-defun.o: t-defun.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h \
+ builtin.h eval.h
+t-error.o: t-error.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h \
+ eval.h
+t-eval.o: t-eval.cc a-list.h S.h hacks.h builtin.h test.h basics.h \
+ print.h parser.h tokenizer.h debugging.h dump.h stack.h except.h mode.h \
+ atoms.h
+t-eval-atomic.o: t-eval-atomic.cc test.h basics.h S.h hacks.h print.h \
+ parser.h tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h \
+ atoms.h
+t-eval-cond.o: t-eval-cond.cc eval.h S.h hacks.h test.h basics.h print.h \
+ parser.h tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h \
+ atoms.h
+t-evaluate-primitive.o: t-evaluate-primitive.cc test.h basics.h S.h \
+ hacks.h print.h parser.h tokenizer.h debugging.h dump.h stack.h except.h \
+ mode.h a-list.h atoms.h
+t-fluentons.o: t-fluentons.cc test.h basics.h S.h hacks.h print.h \
+ parser.h tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h \
+ atoms.h
+t-kernel.o: t-kernel.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-pairs.o: t-pairs.cc S.h hacks.h test.h basics.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-parser.o: t-parser.cc parser.h S.h hacks.h tokenizer.h test.h basics.h \
+ print.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-stack.o: t-stack.cc stack.h S.h hacks.h test.h basics.h print.h \
+ parser.h tokenizer.h debugging.h dump.h except.h mode.h a-list.h atoms.h
+t-strings.o: t-strings.cc test.h basics.h S.h hacks.h print.h parser.h \
+ tokenizer.h debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+t-tokenizer.o: t-tokenizer.cc tokenizer.h S.h hacks.h test.h basics.h \
+ print.h parser.h debugging.h dump.h stack.h except.h mode.h a-list.h \
+ atoms.h
+test.o: test.cc test.h basics.h S.h hacks.h print.h parser.h tokenizer.h \
+ debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+tokenizer.o: tokenizer.cc S.h hacks.h tokenizer.h mode.h debugging.h \
+ basics.h dump.h parser.h stack.h
+a-list.o: a-list.h S.h hacks.h
+Atom.o: Atom.h
+atoms.o: atoms.h S.h hacks.h
+basics.o: basics.h S.h hacks.h
+builtin.o: builtin.h S.h hacks.h
+debugging.o: debugging.h basics.h S.h hacks.h dump.h parser.h tokenizer.h \
+ stack.h
+dump.o: dump.h S.h hacks.h
+eval.o: eval.h S.h hacks.h
+except.o: except.h S.h hacks.h
+hacks.o: hacks.h
+io.o: io.h
+mode.o: mode.h debugging.h basics.h S.h hacks.h dump.h parser.h \
+ tokenizer.h stack.h
+parser.o: parser.h S.h hacks.h tokenizer.h
+print.o: print.h S.h hacks.h
+production.o: production.h
+read.o: read.h S.h hacks.h
+recorder.o: recorder.h hacks.h
+REPL.o: REPL.h hacks.h
+S.o: S.h hacks.h
+stack.o: stack.h S.h hacks.h
+test.o: test.h basics.h S.h hacks.h print.h parser.h tokenizer.h \
+ debugging.h dump.h stack.h except.h mode.h a-list.h atoms.h
+tokenizer.o: tokenizer.h S.h hacks.h
